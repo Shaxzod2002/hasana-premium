@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.header {
+    min-height: 100vh;
+    height: auto;
+    background-color: #303030;
+}
+
+header {
+    min-height: 100vh;
+    height: auto;
+    background: url('/public/Image/Header/Back blur.png') no-repeat top;
+}
+
+.header .header-left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.header .header-left h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    margin-left: 100px;
+    line-height: 91px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.header .header-left p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 140px 20px 100px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+
+.header .header-left a {
+    width: 300px;
+    height: 70px;
+    margin: 20px 0 0 100px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    transition: all .3s linear;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 3px solid #FF9B04;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.header .header-left a:hover {
+    background: linear-gradient(91.41deg, #E8D95A -4.85%, #FF9C04 102.28%);
+    border: none;
+    color: #000;
+}
+
+.header .header-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-right .header-image-right {
+    position: absolute;
+    width: 600px;
+    left: -100px;
+    z-index: 1;
+}
+
+.header .header-right .header-image-left {
+    position: absolute;
+    width: 400px;
+    left: 260px;
+}
+
+@media (max-width: 280px) {
+    .header {
+        position: relative;
+        height: auto;
+    }
+
+    .header .header-left h1 {
+        margin-top: 0;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
+    .header .header-left p {
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .header .header-left a {
+        position: relative;
+        top: 0;
+        width: 150px;
+        height: 40px;
+        z-index: 4;
+        border: 2px solid #FF9B04;
+        cursor: pointer !important;
+        margin: 50px 0 0 50px;
+        font-size: 15px;
+    }
+
+    .header .header-right {
+        height: 70%;
+    }
+
+    .header .header-right .header-image-right {
+        width: 200px;
+        position: relative;
+        top: 0;
+        margin-left: 150px;
+    }
+
+    .header .header-right .header-image-left {
+        width: 120px;
+        left: 145px;
+    }
+}
+
+@media (min-width: 281px) and (max-width: 575.9px) {
+    .header {
+        position: relative;
+        height: auto;
+    }
+
+    .header .header-left h1 {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .header .header-left p {
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .header .header-left a {
+        position: relative;
+        width: 150px;
+        height: 40px;
+        z-index: 4;
+        border: 2px solid #FF9B04;
+        cursor: pointer !important;
+        margin: 50px 0 0 100px;
+        font-size: 15px;
+    }
+
+    .header .header-right {
+        height: 70%;
+    }
+
+    .header .header-right .header-image-right {
+        width: 300px;
+        position: relative;
+        top: 0;
+        margin-left: 60px;
+    }
+
+    .header .header-right .header-image-left {
+        width: 200px;
+        left: 170px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+    .header {
+        position: relative;
+        height: auto;
+    }
+
+    .header .header-left h1 {
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+    .header .header-left p {
+        font-size: 20px;
+        padding: 0;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .header .header-left a {
+        position: relative;
+        width: 250px;
+        height: 60px;
+        z-index: 4;
+        border: 2px solid #FF9B04;
+        cursor: pointer !important;
+        margin: 50px 0 0 100px;
+        font-size: 15px;
+    }
+
+    .header .header-right {
+        height: 70%;
+    }
+
+    .header .header-right .header-image-right {
+        width: 400px;
+        position: relative;
+        top: 0;
+        margin-left: 60px;
+    }
+
+    .header .header-right .header-image-left {
+        width: 300px;
+        left: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .header {
+        position: relative;
+        height: auto;
+    }
+
+    .header .header-left h1 {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 35px;
+        padding: 0;
+        margin: 0;
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+    }
+
+    .header .header-left p {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 25px;
+        padding: 0 50px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .header .header-left a {
+        position: relative;
+        width: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 60px;
+        z-index: 4;
+        border: 2px solid #FF9B04;
+        cursor: pointer !important;
+        margin: 50px 0;
+        font-size: 15px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+
+    .header .header-right {
+        height: 70%;
+    }
+
+    .header .header-right .header-image-right {
+        width: 500px;
+        position: relative;
+        top: 0;
+        margin-left: 60px;
+    }
+
+    .header .header-right .header-image-left {
+        width: 400px;
+        left: 350px;
+    }
+}

@@ -1,0 +1,140 @@
+.partners {
+    width: 102%;
+    margin-left: -1%;
+    height: 418px;
+    background: #303030;
+}
+
+.partners .title {
+    width: 300px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 120px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .title span {
+    width: 68px;
+    height: 5px;
+    background: linear-gradient(90deg, #E4D229 0%, #FF9B04 100%);
+}
+
+.partners .title h1 {
+    width: 155px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.partners .partners-swiper {
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.partners .partors-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .swiper-button-prev,
+.partners .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.partners .swiper-button-prev::after,
+.partners .swiper-button-next::after {
+    font-size: 30px;
+    color: #fff;
+}
+
+.partners-swiper-mobile, .partners-swiper-planete {
+    display: none;
+}
+
+@media screen and (max-width: 767.9px) {
+    .partners .title {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .partners .title span {
+        position: relative;
+        top: -30px;
+        left: 0;
+        width: 26%;
+        height: 4px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .partners .title h1 {
+        font-size: 22px !important;
+        margin-top: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .partners .swiper-button-prev,
+    .partners .swiper-button-next {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        top: 50%;
+        border: 2px solid #fff;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-left: -5px;
+    }
+
+    .partners-swiper {
+        display: none;
+    }
+
+    .partners-swiper-mobile {
+        display: flex;
+    }
+
+    .partners-swiper-mobile .swiper-button-prev::after,
+    .partners-swiper-mobile .swiper-button-next::after {
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .partners-swiper {
+        display: none;
+    }
+
+    .partners-swiper-planete {
+        display: flex;
+    }
+}

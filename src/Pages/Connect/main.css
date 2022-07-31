@@ -1,0 +1,314 @@
+.connect {
+    position: relative;
+    min-height: 100vh;
+    height: auto;
+    background: #303030;
+}
+
+.connect-container {
+    width: 102%;
+    margin-left: -1%;
+    display: flex;
+    min-height: 100vh;
+    height: auto;
+    background: url('../../../public/Image/Connect/Back blur.png') no-repeat center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.connect .contact {
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.connect .connect-container .title {
+    display: flex;
+    margin-left: 0;
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    gap: 20px;
+}
+
+.connect .connect-container .title span {
+    width: 68px;
+    height: 5px;
+    background: linear-gradient(90deg, #E4D229 0%, #FF9B04 100%);
+}
+
+.connect .connect-container .title h1 {
+    width: 154px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.connect .contact .connect-left {
+    height: auto;
+}
+
+.connect .contact .connect-left .location {
+    padding: 40px 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.connect .contact .connect-left a {
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.connect .contact .connect-left .location .icon {
+    font-size: 100px;
+    color: #fff;
+}
+
+.connect .contact .connect-left .phone {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.connect .contact .connect-left .phone .icon {
+    font-size: 50px;
+    color: #fff;
+}
+
+.connect .contact .connect-left .delivery {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    gap: 30px;
+}
+
+.connect .contact .connect-left .delivery .icon {
+    font-size: 50px;
+    color: #fff;
+}
+
+.connect .contact .connect-right .log-in {
+    position: relative;
+    width: 510px;
+    min-height: 550px;
+    height: auto;
+    margin-top: -130px;
+    padding: 20px 100px 0 50px;
+    background: #3C3C3CCC;
+}
+
+.connect .contact .connect-right .log-in::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 5px;
+    top: 100%;
+    left: 0;
+    background: linear-gradient(90deg, #E4D229 0%, #FF9B04 100%);
+}
+
+.connect .contact .connect-right .log-in h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    margin: 30px 0;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.connect .contact .connect-right .log-in p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #C8C8C8;
+}
+
+.connect .contact .connect-right .log-in textarea {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    width: 402px;
+    height: 120px;
+    background: #303030;
+    color: #fff;
+    border: 1px solid #484848;
+}
+
+.connect .contact .connect-right .log-in input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 20px;
+    margin: 20px 0;
+    width: 402px;
+    color: #fff;
+    height: 50px;
+    background: #303030;
+    border: 1px solid #484848;
+}
+
+.connect .contact .connect-right .log-in input[type="submit"] {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    transition: all .3s linear;
+    align-items: center;
+    padding: 0 !important;
+    background-color: transparent;
+    border: 2px solid #FF9B04;
+    color: #FF9B04;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.connect .contact .connect-right .log-in input[type="submit"]:hover {
+    background: linear-gradient(90deg, #E4D229 0%, #FF9B04 100%);
+    color: #000;
+    border: none;
+}
+
+@media screen and (max-width: 767.9px) {
+    .connect {
+        min-height: 160vh;
+    }
+
+    .connect .connect-left {
+        margin: -150px 0 0 0;
+    }
+
+    .connect .connect-container .title {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .connect .connect-container .title span {
+        position: relative;
+        top: -30px;
+        width: 30%;
+        height: 4px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .connect .connect-container .title h1 {
+        position: relative;
+        left: 25%;
+        transform: translate(-50%);
+        font-size: 22px !important;
+        margin-top: 0;
+        padding: 0;
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+    }
+
+    .connect .connect-left .location {
+        margin: 20px 0 !important;
+        padding: 0 !important;
+    }
+
+    .connect .connect-left .location .icon {
+        margin: 0;
+        padding: 0;
+        font-size: 25px !important;
+    }
+
+    .connect .connect-left .location a {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .connect .connect-left .phone .icon {
+        margin: 0;
+        padding: 0;
+        font-size: 15px !important;
+    }
+
+    .connect .connect-left .phone a {
+        font-size: 10px;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .connect .connect-left .delivery .icon {
+        margin: 0;
+        padding: 0;
+        font-size: 20px !important;
+    }
+
+    .connect .connect-left .delivery a {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .connect .connect-right {
+        margin-top: 150px;
+    }
+
+    .connect .connect-right .log-in {
+        width: 100% !important;
+        padding: 15px 15px 0 15px !important;
+    }
+
+    .connect .connect-right .log-in h2 {
+        text-align: center;
+        font-size: 23px !important;
+    }
+
+    .connect .connect-right .log-in p {
+        font-size: 15px !important;
+        margin-left: 5% !important;
+    }
+
+    .connect .connect-right .log-in input,
+    .connect .connect-right .log-in textarea {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+
+    .connect .connect-right .log-in input {
+        height: 40px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .connect {
+        min-height: 200vh;
+    }
+
+    .connect .connect-left .location .icon {
+        font-size: 75px !important;
+    }
+
+    .connect .connect-right .log-in {
+        margin-top: 100px !important;
+    }
+}

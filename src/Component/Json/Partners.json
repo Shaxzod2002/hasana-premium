@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Hamkorlar",
+        "ruxsor": "./Image/Partners/ruxsor.png",
+        "ruxsorName": "Ruxsor",
+        "gold": "./Image/Partners/gold.png",
+        "goldName": "Gold",
+        "ruxsorRuxsor": "./Image/Partners/radio-ruxsor.png",
+        "ruxsorRuxsorName": "Ruxsor Radio",
+        "madad": "./Image/Partners/madad.png",
+        "madadName": "Madad Bank"
+    }
+]

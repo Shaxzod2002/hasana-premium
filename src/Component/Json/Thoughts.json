@@ -1,0 +1,41 @@
+[
+    {
+        "id": 0,
+        "icon": "./Image/Thoughts/icon.png",
+        "text": "Menga bu mahsulot juda ham ma‘qul bo‘ldi. Sizlarga ham tavsiya qilaman.",
+        "img": "./Image/Thoughts/0.png",
+        "name": "Shahzod Azizov"
+    },
+
+    {
+        "id": 1,
+        "icon": "./Image/Thoughts/icon.png",
+        "text": "Bu mahsulotni ichganimdan so‘ng mo‘ylovim yanada tez o‘sishni boshladi!",
+        "img": "./Image/Thoughts/1.png",
+        "name": "Charlie Chaplin"
+    },
+
+    {
+        "id": 2,
+        "icon": "./Image/Thoughts/icon.png",
+        "text": "Oshqozonim oldinlari rossa bezovta qilar edi. Endi bu muammo men uchun emas.",
+        "img": "./Image/Thoughts/2.png",
+        "name": "Muhammadaziz Toirov"
+    },
+
+    {
+        "id": 3,
+        "icon": "./Image/Thoughts/icon.png",
+        "text": "Ortiqcha vazni borlar uchun juda ham foydali dori ekan. Bu Tavsiya qilaman.",
+        "img": "./Image/Thoughts/3.png",
+        "name": "Faxriyor To‘lqinjonov"
+    },
+
+    {
+        "id": 4,
+        "icon": "./Image/Thoughts/icon.png",
+        "text": "Menga bu mahsulot juda ham ma‘qul bo‘ldi. Sizlarga ham tavsiya qilaman.",
+        "img": "./Image/Thoughts/0.png",
+        "name": "Shahzod Azizov"
+    }
+]

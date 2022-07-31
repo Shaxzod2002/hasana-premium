@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "img": "./Image/Benefits/0.png",
+        "title": "Yurak uchun",
+        "text": "HASANA Premium vitamin detoxlari bilan yuragingiz quvvatini oshirishingiz vaoldingidanda yaxshi ishlashiga yordam beradi"
+    },
+
+    {
+        "id": 1,
+        "img": "./Image/Benefits/1.png",
+        "title": "O‘pka uchun",
+        "text": "HASANA Premium vitamin detoxlari bilan yuragingiz quvvatini oshirishingiz va oldingidanda yaxshi ishlashiga yordam beradi"
+    },
+
+    {
+        "id": 2,
+        "img": "./Image/Benefits/2.png",
+        "title": "Miya uchun",
+        "text": "HASANA Premium vitamin detoxlari bilan yuragingiz quvvatini oshirishingiz vaoldingidanda yaxshi ishlashiga yordam beradi"
+    },
+
+    {
+        "id": 3,
+        "img": "./Image/Benefits/3.png",
+        "title": "Oshqozon uchun",
+        "text": "HASANA Premium vitamin detoxlari bilan yuragingiz quvvatini oshirishingiz vaoldingidanda yaxshi ishlashiga yordam beradi"
+    },
+
+    {
+        "id": 4,
+        "img": "./Image/Benefits/4.png",
+        "title": "Jigar faoliyati uchun",
+        "text": "HASANA Premium vitamin detoxlari bilan yuragingiz quvvatini oshirishingiz vaoldingidanda yaxshi ishlashiga yordam beradi"
+    },
+
+    {
+        "id": 5,
+        "img": "./Image/Benefits/5.png",
+        "title": "Ortiqcha vaznni yo‘qotish uchun",
+        "text": "HASANA Premium vitamin detoxlari bilan yuragingiz quvvatini oshirishingiz vaoldingidanda yaxshi ishlashiga yordam beradi"
+    },
+     
+    {
+        "id": 6,
+        "img": "./Image/Benefits/5.png",
+        "title": "Ortiqcha vaznni yo‘qotish uchun",
+        "text": "HASANA Premium vitamin detoxlari bilan yuragingiz quvvatini oshirishingiz vaoldingidanda yaxshi ishlashiga yordam beradi"
+    },
+    {
+        "id": 7,
+        "img": "./Image/Benefits/5.png",
+        "title": "Ortiqcha vaznni yo‘qotish uchun",
+        "text": "HASANA Premium vitamin detoxlari bilan yuragingiz quvvatini oshirishingiz vaoldingidanda yaxshi ishlashiga yordam beradi"
+    }
+]

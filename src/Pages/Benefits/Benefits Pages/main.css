@@ -1,0 +1,57 @@
+.benefits-page {
+    position: relative;
+    width: 333px;
+    height: 390px;
+    background: #3c3c3ccc;
+    margin: 30px 0 0 0;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.benefits-page img {
+    margin: 0 0 40px 0;
+}
+
+.benefits-page h1 {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.benefits-page p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #C8C8C8;
+}
+
+.benefits-page::before {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #E4D229 0%, #FF9B04 100%);
+}
+
+.benefits-page:hover {
+    transition: all .3s linear;
+    background-color: #FF9B04;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.benefits-page:hover > h1, .benefits-page:hover > p {
+    color: #000;
+}
+
+.benefits-page:hover::before {
+    background: #fff;
+}
